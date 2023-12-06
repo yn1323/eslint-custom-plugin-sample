@@ -1,0 +1,11 @@
+{
+  "version": "0.3.0",
+  "configurations": [
+    {
+      "command": "npm run test:watch",
+      "name": "Launch Jest with watch mode",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+  ]
+}

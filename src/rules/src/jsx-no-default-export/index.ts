@@ -2,7 +2,7 @@ import { ESLintUtils } from '@typescript-eslint/utils'
 
 const createRule = ESLintUtils.RuleCreator(name => name)
 export const ruleName = 'jsx-no-default-export'
-export const rule = createRule({
+export const JsxNoDefaultExport = createRule({
   meta: {
     type: 'suggestion',
     docs: {

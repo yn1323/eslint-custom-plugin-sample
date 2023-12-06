@@ -1,11 +1,11 @@
 import { RuleTester } from '@typescript-eslint/rule-tester'
-import { rule, ruleName } from '.'
+import { WarnVariableNames, ruleName } from '.'
 
 const ruleTester = new RuleTester()
 
 const options = [{ keywords: ['trim', 'temp'] }]
 
-ruleTester.run(ruleName, rule, {
+ruleTester.run(ruleName, WarnVariableNames, {
   valid: [
     {
       code: `let filteredValue = something.filter(e => e !== 3);

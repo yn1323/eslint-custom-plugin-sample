@@ -1,9 +1,9 @@
 import { RuleTester } from '@typescript-eslint/rule-tester'
-import { rule, ruleName } from '.'
+import { JsxNoDefaultExport, ruleName } from '.'
 
 const ruleTester = new RuleTester()
 
-ruleTester.run(ruleName, rule, {
+ruleTester.run(ruleName, JsxNoDefaultExport, {
   valid: [
     {
       code: `export const Button = () => {

@@ -2,7 +2,7 @@ import { ESLintUtils } from '@typescript-eslint/utils'
 
 const createRule = ESLintUtils.RuleCreator(name => name)
 export const ruleName = 'unnecessary-variable-names'
-export const rule = createRule({
+export const WarnVariableNames = createRule({
   meta: {
     type: 'suggestion',
     docs: {

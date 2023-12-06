@@ -1,2 +1,3 @@
 # eslint-custom-plugin-sample
-sample of eslint custom plugin using TypeScript. ⚠️ based on ESLint v8
+Sample of eslint custom rule using TypeScript.
+⚠️ Based on ESLint v8
